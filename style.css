@@ -1,10 +1,13 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
 body{
-background:#fff; )
+background:#fff;
+  font-family: "Arial", sans-serif;
+  )
 }
 #cssmenu {
-  background:#289;
+  background:#333;
   width:auto;
+  text-align:center;
 }
 
 #cssmenu ul {
@@ -14,9 +17,7 @@ background:#fff; )
   line-height: 1;
   display: block;
   zoom: 1;
-  margin-top: 2px;
-  margin-left: 30%;
-  border-bottom:1px solid #289;
+  margin:0 auto;
 }
 
 #cssmenu ul:after {
@@ -63,7 +64,7 @@ background:#fff; )
 
 
 #cssmenu ul li a:hover {
-  color:#4e4e4e;
+  color:#ccc;
 }
 
 #cssmenu ul li a:hover:before {
@@ -122,6 +123,11 @@ background:#fff; )
 }
 
 @media screen and (max-width: 768px) {
+  
+  #cssmenu{
+  width:300px; 
+    margin:0 auto;
+  }
   #cssmenu ul {
     margin-left: 0;
   }
@@ -134,7 +140,7 @@ background:#fff; )
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    border-bottom: 1px solid #289dcc;
+    border-bottom:1px solid #fff;
     text-align: center;
   }
   #cssmenu ul li.last > a,
@@ -152,50 +158,48 @@ background:#fff; )
 
 .header {
   text-align: center;
-  background: #4e4e4e;
+  background: #f1f1f1;
   line-height: 2;
-  border-bottom: 1px solid #289;
 position:relative;
 }
 
 h1 {
-  color: #fff;
+  color: #333;
+  margin:0;
 
 }
 
 
 .code {
-  float: left;
-  background: #289;
-  width: 40%;
+  background: #f1f1f1;
+  width: 400px;
 overflow:auto;
-  margin-left: 20px;
   box-sizing: border-box;
-  box-shadow: 0px 10px 30px #333;
-  margin-top: 100px;
+ padding:20px;
+  
 }
 
 pre {
-  color: #fff;
-  padding: 0;
-  margin-left: 20%;
+  color: #333;
+  margin:0 auto;
+  margin-left:30px;
 }
 
 .cam {
   position: relative;
   width: 8rem;
   height: 6rem;
-  margin: 100px ;float:left;
+  margin: 100px auto;
   border-radius: 1rem;
   cursor: pointer;
-  background:#4e4e4e;
+  background:#333;
 }
 .cam::before {
   content: "";
   position: absolute;
   width: 25%;
   height: 1rem;
-  background:#4e4e4e;
+  background:#333;
   top: -10px;
   left: 20px;
 }
@@ -208,7 +212,7 @@ pre {
   border-radius: 50%;
   left: 50px;
   top: 20px;
-  background:#4e4e4e;
+  background:#333;
 }
 .icon3{
 	height:8rem;
@@ -216,9 +220,7 @@ pre {
 	position:relative;
 	background:#4e4e4e;
 	border-radius:5px;
-margin:100px;
-
-float:left;
+margin:100px auto;
 }
 .icon3::before{
 content:'';
@@ -296,44 +298,16 @@ svg line{
 	-webkit-transform:translateY(-400px);
 }
 
-
-.sp {
-  width: 45px;
-  height: 45px;
-position:absolute;
-  clear: both;
-margin-top:10px;
-margin-left:43%;
-
-  border: 4px solid #fff;
-
-border-radius:20%;
-  animation:round 1s infinite linear;
-  -webkit-animation:round 1s infinite linear;
-
-}
-@keyframes round{
-  from{
-    transform:rotate(0deg);
-
-  }to{
-    transform:rotate(359deg);
-
-  }
-
-
-}
+  
 .icon2{
 
 	height:8rem;
 	width:8rem;
 	position:relative;
-	float:left;
   border-radius: 1rem;
   cursor: pointer;
   background:#4e4e4e;
-margin:100px;
-margin-left:35%;
+margin:100px auto;
 
 }
 .icon2::before{
@@ -363,13 +337,9 @@ transform:rotate(-45deg);
 	width:8rem;
 	position:relative;
 	background:#4e4e4e;
-
-	float:left;
   border-radius: 1rem;
   cursor: pointer;
-
-margin:100px;
-margin-left:35%;
+margin:100px auto;
 
 }
 .icon4::before{
