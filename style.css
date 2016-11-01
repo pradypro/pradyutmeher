@@ -122,39 +122,6 @@ background:#fff;
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  
-  #cssmenu{
-  width:300px; 
-    margin:0 auto;
-  }
-  #cssmenu ul {
-    margin-left: 0;
-  }
-  #cssmenu ul li {
-    float: none;
-    display: block;
-  }
-  #cssmenu ul li a {
-    width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-bottom:1px solid #fff;
-    text-align: center;
-  }
-  #cssmenu ul li.last > a,
-  #cssmenu ul li:last-child > a {
-    border: 0;
-  }
-  #cssmenu ul li a:after {
-    display: none;
-  }
-  #cssmenu ul li a:before {
-    display: none;
-  }
-
-}
 
 .header {
   text-align: center;
@@ -182,7 +149,6 @@ overflow:auto;
 pre {
   color: #333;
   margin:0 auto;
-  margin-left:30px;
 }
 
 .cam {
@@ -366,17 +332,4 @@ top:33%;
 background:#4e4e4e;
 
 }
- a.back-to-top {
-	display: none;
-	width: 60px;
-	height: 60px;
-	text-indent: -9999px;
-	position: fixed;
-	z-index: 999;
-	right: 20px;
-	bottom: 20px;
-	background: #289 url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-128.png") no-repeat center 20%;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-}
+
