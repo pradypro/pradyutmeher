@@ -189,7 +189,7 @@ pre {
   position: relative;
   width: 8rem;
   height: 6rem;
-  margin: 100px auto;
+  margin: 0px auto;
   border-radius: 1rem;
   cursor: pointer;
   background:#333;
@@ -220,7 +220,7 @@ pre {
 	position:relative;
 	background:#4e4e4e;
 	border-radius:5px;
-margin:100px auto;
+margin:0px auto;
 }
 .icon3::before{
 content:'';
@@ -307,7 +307,7 @@ svg line{
   border-radius: 1rem;
   cursor: pointer;
   background:#4e4e4e;
-margin:100px auto;
+margin:0px auto;
 
 }
 .icon2::before{
