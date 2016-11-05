@@ -3478,7 +3478,7 @@ width: 500px;
   width: 50%;
     height: 100%;
     position: absolute;
-    top: 0;
+    top: 200px;
     left: 0;
 }
 .carousel.title{
@@ -3489,7 +3489,7 @@ perspective: 400px;
 }
 
 .carousel-item.title-item{
-  top: 200px;
+  top: 300px;
    
 }
 .brand-name img{
@@ -3539,7 +3539,6 @@ width: 500px;
   }
   .carousel .carousel-item{
     width:100%;
-    left:50px;
   }
 }
  
