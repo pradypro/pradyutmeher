@@ -3499,7 +3499,7 @@ body{
     cursor: pointer;
    height:40px;
   width:40px;
-	background:#ddd;
+
 	margin-right:20px;
    
 }
@@ -3511,4 +3511,10 @@ body{
     width:100%;
     left:50px;
   }
+}
+.arrow_left:before {
+	content: "\23";
+}
+.arrow_right:before {
+	content: "\24";
 }
