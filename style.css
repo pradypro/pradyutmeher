@@ -3486,3 +3486,27 @@ body{
   margin:0;
 	padding: 12px; 
 }
+.carousel .indicators {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+}
+.carousel .indicators .indicator-item {
+    display: inline-block;
+    font-size:40px;
+    cursor: pointer;
+   height:30px;
+  width:30px;
+   
+}
+@media only screen and (max-width:990px){
+  .carousel{
+    height:680px;
+  }
+  .carousel .carousel-item{
+    width:100%;
+    left:50px;
+  }
+}
