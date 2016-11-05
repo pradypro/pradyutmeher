@@ -3467,7 +3467,7 @@ width: 500px;
     -webkit-perspective:none;
     perspective:none;
   text-align:center;
-    cursor: all-scroll;
+    cursor: cell;
  
   -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
