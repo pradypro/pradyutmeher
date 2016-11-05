@@ -3540,5 +3540,14 @@ width: 500px;
     width:100%;
   }
 }
+::-moz-selection
+    color:#333;
+    background:#f6f6f6;
+}
+
+::selection {
+    color: #333;
+    background:#f6f6f6;
+}
  
 
