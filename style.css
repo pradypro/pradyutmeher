@@ -3484,7 +3484,8 @@ width: 500px;
 .carousel.title{
    cursor:pointer;
     height: 400px;
-
+perspective: 400px;
+	-webkit-perspective: 400px;
 }
 
 .carousel-item.title-item{
