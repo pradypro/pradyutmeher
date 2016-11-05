@@ -3446,7 +3446,7 @@ body{
   color:#333;
 }
 .nav-bar .side-nav{
-
+width: 500px;
   left:0;
 } 
 .logo-circle{
@@ -3463,7 +3463,7 @@ body{
    overflow: hidden;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     -webkit-perspective:none;
     perspective:none;
   text-align:center;
@@ -3481,10 +3481,11 @@ body{
     top: 200px;
     left: 0;
 }
-.brand-name{
-  color:#333;
+.brand-name img{
+width: 500px;
+    height: 305px;
   margin:0;
-	padding: 12px; 
+	 
 }
 .carousel .indicators {
     position: absolute;
@@ -3499,7 +3500,14 @@ body{
     cursor: pointer;
  width:20px;
 	height:20px;
-	background:#ccc;
+	background:#0c516b;
+
+  margin-right:20px;
+}
+
+.carousel .indicators .indicator-item.active {
+   
+  
 }
 @media only screen and (max-width:990px){
   .carousel{
@@ -3510,4 +3518,3 @@ body{
     left:50px;
   }
 }
- 
