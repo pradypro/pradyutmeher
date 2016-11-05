@@ -3463,7 +3463,7 @@ width: 500px;
    overflow: hidden;
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     -webkit-perspective:none;
     perspective:none;
   text-align:center;
@@ -3476,7 +3476,6 @@ width: 500px;
 .carousel .carousel-item {
  
   width: 50%;
-    height: 100%;
     position: absolute;
     top: 200px;
     left: 0;
