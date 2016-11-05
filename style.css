@@ -3494,21 +3494,35 @@ width: 500px;
     right: 0;
     bottom: 50px;
 }
+
 .carousel .indicators .indicator-item {
     display: inline-block;
-    font-size:40px;
-    cursor: pointer;
- width:20px;
-	height:20px;
-	background:#0c516b;
-
-  margin-right:20px;
+    font-size: 40px;
+    width: 45px;
+    height: 45px;
+    font-family: 'ElegantIcons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
 }
 
-.carousel .indicators .indicator-item.active {
-   
+.carousel .indicators .indicator-item:nth-child(even):before {
+   content:""
   
 }
+.carousel .indicators .indicator-item:nth-child(1):before {
+   content:"\23"
+  
+}
+.carousel .indicators .indicator-item:nth-child(3):before {
+   content:"\24"
+  
+}
+
 @media only screen and (max-width:990px){
   .carousel{
     height:680px;
