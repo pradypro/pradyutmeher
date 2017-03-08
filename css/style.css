@@ -1,0 +1,46 @@
+ body{
+ 	font-family: 'Lato', sans-serif;
+ }
+ .header{
+ 	height:350px;
+ 	width: 100%;
+ }
+ .header h1,h2{
+ 	text-transform: uppercase;
+ 	font-weight: 100;
+ }
+ .btn-group .btn-menu{
+ 	background: #fff;
+ 	color:#000;
+ }
+.menu-item{
+  background:#333;
+  border:none;
+  box-shadow:none;
+  font-size:18px;
+}
+.menu-item>li>a{
+  padding-top:15px;
+}
+
+ .brand-name{
+ 	position: fixed;
+ 	top:0;
+ 	left:0;
+ 	width:100%;
+ 	padding: 40px;
+ }
+ .section{
+ 	position: relative;
+ 	text-align: center;
+ 	height:800px;
+ 	max-height: 100%;
+ 	background: #333; 
+ }
+ .work{
+ 	margin:100px 0;
+ }
+ .footer{
+ 	background: #fff;
+ 	height:200px;
+ }
