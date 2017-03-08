@@ -22,7 +22,18 @@
 .menu-item>li>a{
   padding-top:15px;
 }
-
+.name{
+	font-size:36px;
+	background:#000;
+	color:#fff;
+	padding: 6px 12px
+}
+@media all and (max-width: 767px){
+	.name{
+		display: block;
+		text-align: center;
+	}
+}
  .brand-name{
  	position: fixed;
  	top:0;
