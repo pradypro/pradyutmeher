@@ -2,7 +2,7 @@
  	font-family: 'Lato', sans-serif;
  }
  .header{
- 	height:350px;
+ 	height:550px;
  	width: 100%;
  }
  .header h1,h2{
@@ -44,14 +44,55 @@
  .section{
  	position: relative;
  	text-align: center;
- 	height:800px;
- 	max-height: 100%;
- 	background: #333; 
+ 	height:100%;
+ 	background: #009688; 
  }
  .work{
- 	margin:100px 0;
+ 	 width: 100%;
+ 	 position: relative;
+ 	 height: 100%;
+ }
+.work::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 999;
+    width: 100%;
+    opacity: 0.7;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 800px;
+    background-image: url(http://helpdesk.pcadv.org/img/web40.svg);
+}
+ .work .box{
+   padding: 20px 0;
+   margin-bottom:200px;
+      margin-left: 70px;	
+      position: relative;
+ }
+ .box::before{
+ 	content: '';
+    position: absolute;
+    top: 190px;
+    left: 23%;
+    width: 40%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-image: url(file:///D:/portfolio/images/portmob.JPG);
+ }
+.box:nth-child(2)::before{
+	background-image: url(file:///D:/portfolio/images/capturemob.JPG);
+}
+ .title{
+ 	padding:30px 0;
+ 	margin:0 auto;
+ 	color:#fff;
  }
  .footer{
  	background: #fff;
- 	height:200px;
+ 	height:800px;
  }
