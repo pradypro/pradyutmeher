@@ -33,6 +33,12 @@
 		display: block;
 		text-align: center;
 	}
+	.work:before{
+		display:none;
+	}
+	.box:before{
+		display:none;
+	}
 }
  .brand-name{
  	position: fixed;
