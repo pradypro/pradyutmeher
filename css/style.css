@@ -88,10 +88,10 @@
     height: 100%;
     background-repeat: no-repeat;
     background-size: 200px;
-    background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/portmob.JPG);
+    background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/Capturemob.JPG);
  }
 .box:nth-child(2)::before{
-	background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/Capturemob.JPG);
+	background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/yostel.in-.png);
 }
  .title{
  	padding:30px 0;
