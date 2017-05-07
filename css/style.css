@@ -57,6 +57,7 @@
  	 width: 100%;
  	 position: relative;
  	 height: 100%;
+	 z-index:0;
  }
 .work::before {
     content: '';
@@ -96,6 +97,8 @@
 .tab-bar{
 	background: rgba(255, 255, 255, 0.39);
     width: 609px;
+	position:relative;
+	z-index:1;
     margin: 0 auto;
 	margin-bottom:30px;
     padding: 2px;
