@@ -84,7 +84,7 @@
  	content: '';
     position: absolute;
     top: 190px;
-    left: 23%;
+    left: 24%;
     width: 40%;
     height: 100%;
     background-repeat: no-repeat;
@@ -92,6 +92,9 @@
     background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/Capturemob.JPG);
  }
 .box.two::before{
+	background-image: url(../images/orikidmob.JPG);
+}
+.box.three::before{
 	background-image: url(https://raw.githubusercontent.com/pradypro/pradyutmeher/gh-pages/images/yostel.in-.png);
 }
 .tab-bar{
