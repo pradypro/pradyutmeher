@@ -60,22 +60,22 @@
 	 z-index:0;
  }
 .work::before {
-    content: '';
+       content: '';
     position: absolute;
     top: 0;
     left: 0px;
     z-index: 999;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.5;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 800px;
-    background-image: url(http://helpdesk.pcadv.org/img/web40.svg);
+    background-size: 612px;
+    background-image: url(http://www.pixeltarget.com/assets/images/app/svg/web40.svg);
 }
  .work .box{
-   padding: 20px 0;
+   padding: 0;
    margin-bottom:270px;
       margin-left: 70px;	
       position: relative;
@@ -83,7 +83,7 @@
  .box::before{
  	content: '';
     position: absolute;
-    top: 190px;
+    top: 160px;
     left: 24%;
     width: 40%;
     height: 100%;
